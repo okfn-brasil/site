@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'necto';
+    src: url('necto.woff2') format('woff2'),
+         url('necto.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

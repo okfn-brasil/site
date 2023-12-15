@@ -1,6 +1,6 @@
 {
     "key": "publicacao_c",
-    "title": "Publica<C3><A7><C3><A3>o",
+    "title": "Publicação",
     "fields": [
         {
             "key": "publicacao_c_i",
@@ -28,7 +28,7 @@
         },
         {
             "key": "publicacao_c_t",
-            "label": "Descri<C3><A7><C3><A3>o",
+            "label": "Descrição",
             "name": "descricao",
             "type": "textarea",
             "instructions": "",
@@ -99,5 +99,5 @@
     "hide_on_screen": [],
     "active": true,
     "description": "",
-    "modified": 1696444957
+    "modified": 1696599174
 }

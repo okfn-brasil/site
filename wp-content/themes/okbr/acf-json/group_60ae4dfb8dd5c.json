@@ -65,6 +65,30 @@
             "mime_types": ""
         },
         {
+            "key": "field_652073b4ab82d",
+            "label": "Fundo do banner",
+            "name": "bg_banner",
+            "type": "image",
+            "instructions": "Degrade de fundo",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "full",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
             "key": "eixo_c_ib",
             "label": "Imagem banner",
             "name": "banner",
@@ -106,5 +130,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1622036345
+    "modified": 1696599174
 }

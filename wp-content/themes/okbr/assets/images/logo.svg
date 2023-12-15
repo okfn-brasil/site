@@ -1,268 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="220.344" height="48.829" viewBox="0 0 220.344 48.829">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: #fff;
-      }
-    </style>
-  </defs>
-  <g id="Grupo_400" data-name="Grupo 400" transform="translate(2969.824 1911.223)">
-    <g id="Grupo_11" data-name="Grupo 11" transform="translate(-2934.628 -1909.888)">
-      <rect id="Retângulo_46" data-name="Retângulo 46" class="cls-1" width="12.958" height="1.565" transform="matrix(0.599, -0.801, 0.801, 0.599, 0, 10.38)"/>
-    </g>
-    <g id="Grupo_12" data-name="Grupo 12" transform="translate(-2937.134 -1906.475)">
-      <rect id="Retângulo_47" data-name="Retângulo 47" class="cls-1" width="6.242" height="1.566" transform="matrix(0.446, -0.895, 0.895, 0.446, 0, 5.587)"/>
-    </g>
-    <g id="Grupo_13" data-name="Grupo 13" transform="translate(-2939.847 -1911.223)">
-      <rect id="Retângulo_48" data-name="Retângulo 48" class="cls-1" width="9.814" height="1.566" transform="matrix(0.279, -0.96, 0.96, 0.279, 0, 9.425)"/>
-    </g>
-    <g id="Grupo_14" data-name="Grupo 14" transform="translate(-2942.68 -1908.416)">
-      <rect id="Retângulo_49" data-name="Retângulo 49" class="cls-1" width="6.24" height="1.566" transform="translate(0 6.207) rotate(-84.09)"/>
-    </g>
-    <g id="Grupo_15" data-name="Grupo 15" transform="translate(-2946.073 -1909.199)">
-      <rect id="Retângulo_50" data-name="Retângulo 50" class="cls-1" width="1.565" height="6.992" transform="translate(0 0.12) rotate(-4.38)"/>
-    </g>
-    <g id="Grupo_16" data-name="Grupo 16" transform="translate(-2949.548 -1906.525)">
-      <rect id="Retângulo_51" data-name="Retângulo 51" class="cls-1" width="1.566" height="4.786" transform="matrix(0.967, -0.253, 0.253, 0.967, 0, 0.396)"/>
-    </g>
-    <g id="Grupo_17" data-name="Grupo 17" transform="translate(-2952.331 -1903.968)">
-      <rect id="Retângulo_52" data-name="Retângulo 52" class="cls-1" width="1.565" height="3.208" transform="translate(0 0.66) rotate(-24.952)"/>
-    </g>
-    <g id="Grupo_18" data-name="Grupo 18" transform="translate(-2954.107 -1900.776)">
-      <rect id="Retângulo_53" data-name="Retângulo 53" class="cls-1" width="1.565" height="1.258" transform="translate(0 0.902) rotate(-35.212)"/>
-    </g>
-    <g id="Grupo_19" data-name="Grupo 19" transform="translate(-2959.14 -1901.609)">
-      <rect id="Retângulo_54" data-name="Retângulo 54" class="cls-1" width="1.566" height="5.145" transform="translate(0 1.117) rotate(-45.523)"/>
-    </g>
-    <g id="Grupo_20" data-name="Grupo 20" transform="translate(-2962.854 -1899.779)">
-      <path id="Caminho_35" data-name="Caminho 35" class="cls-1" d="M-2958-1895.94l-5.681-3.895.88-1.3,5.68,3.9Z" transform="translate(2963.677 1901.131)"/>
-    </g>
-    <g id="Grupo_21" data-name="Grupo 21" transform="translate(-2962.017 -1895.039)">
-      <rect id="Retângulo_55" data-name="Retângulo 55" class="cls-1" width="1.565" height="3.913" transform="matrix(0.405, -0.914, 0.914, 0.405, 0, 1.431)"/>
-    </g>
-    <g id="Grupo_22" data-name="Grupo 22" transform="translate(-2969.823 -1893.359)">
-      <rect id="Retângulo_56" data-name="Retângulo 56" class="cls-1" width="1.565" height="10.902" transform="translate(0 1.521) rotate(-76.381)"/>
-    </g>
-    <g id="Grupo_23" data-name="Grupo 23" transform="translate(-2967.417 -1888.446)">
-      <rect id="Retângulo_57" data-name="Retângulo 57" class="cls-1" width="1.566" height="7.918" transform="translate(0 1.563) rotate(-86.67)"/>
-    </g>
-    <g id="Grupo_24" data-name="Grupo 24" transform="translate(-2967.134 -1885.124)">
-      <rect id="Retângulo_58" data-name="Retângulo 58" class="cls-1" width="7.719" height="1.565" transform="matrix(0.993, -0.121, 0.121, 0.993, 0, 0.936)"/>
-    </g>
-    <g id="Grupo_25" data-name="Grupo 25" transform="translate(-2960.725 -1882.3)">
-      <rect id="Retângulo_59" data-name="Retângulo 59" class="cls-1" width="1.794" height="1.565" transform="matrix(0.955, -0.296, 0.296, 0.955, 0, 0.532)"/>
-    </g>
-    <g id="Grupo_26" data-name="Grupo 26" transform="translate(-2963.813 -1879.602)">
-      <rect id="Retângulo_60" data-name="Retângulo 60" class="cls-1" width="6.494" height="1.566" transform="translate(0 3.001) rotate(-27.528)"/>
-    </g>
-    <g id="Grupo_27" data-name="Grupo 27" transform="translate(-2962.162 -1877.12)">
-      <rect id="Retângulo_61" data-name="Retângulo 61" class="cls-1" width="7.001" height="1.566" transform="matrix(0.79, -0.613, 0.613, 0.79, 0, 4.293)"/>
-    </g>
-    <g id="Grupo_28" data-name="Grupo 28" transform="translate(-2959.344 -1874.932)">
-      <rect id="Retângulo_62" data-name="Retângulo 62" class="cls-1" width="6.825" height="1.565" transform="matrix(0.668, -0.745, 0.745, 0.668, 0, 5.081)"/>
-    </g>
-    <g id="Grupo_29" data-name="Grupo 29" transform="translate(-2954.233 -1873.106)">
-      <rect id="Retângulo_63" data-name="Retângulo 63" class="cls-1" width="3.151" height="1.566" transform="matrix(0.524, -0.852, 0.852, 0.524, 0, 2.683)"/>
-    </g>
-    <g id="Grupo_30" data-name="Grupo 30" transform="translate(-2952.318 -1871.705)">
-      <rect id="Retângulo_64" data-name="Retângulo 64" class="cls-1" width="6.133" height="1.566" transform="translate(0 5.712) rotate(-68.646)"/>
-    </g>
-    <g id="Grupo_31" data-name="Grupo 31" transform="translate(-2948.458 -1870.771)">
-      <rect id="Retângulo_65" data-name="Retângulo 65" class="cls-1" width="5.628" height="1.565" transform="translate(0 5.524) rotate(-78.963)"/>
-    </g>
-    <g id="Grupo_32" data-name="Grupo 32" transform="translate(-2944.604 -1870.337)">
-      <rect id="Retângulo_66" data-name="Retângulo 66" class="cls-1" width="3.915" height="1.566" transform="matrix(0.013, -1, 1, 0.013, 0, 3.915)"/>
-    </g>
-    <g id="Grupo_33" data-name="Grupo 33" transform="translate(-2941.69 -1870.673)">
-      <rect id="Retângulo_67" data-name="Retângulo 67" class="cls-1" width="1.565" height="7.57" transform="matrix(0.986, -0.166, 0.166, 0.986, 0, 0.259)"/>
-    </g>
-    <g id="Grupo_34" data-name="Grupo 34" transform="translate(-2938.888 -1871.531)">
-      <rect id="Retângulo_68" data-name="Retângulo 68" class="cls-1" width="1.565" height="4.573" transform="matrix(0.941, -0.339, 0.339, 0.941, 0, 0.53)"/>
-    </g>
-    <g id="Grupo_35" data-name="Grupo 35" transform="translate(-2936.237 -1872.863)">
-      <path id="Caminho_36" data-name="Caminho 36" class="cls-1" d="M-2940.2-1876.609l5.678,9.684,1.354-.785-5.678-9.684Z" transform="translate(2940.204 1877.394)"/>
-    </g>
-    <g id="Grupo_36" data-name="Grupo 36" transform="translate(-2933.791 -1874.66)">
-      <path id="Caminho_37" data-name="Caminho 37" class="cls-1" d="M-2937.181-1877.008l-.866-.888,1.131-1.082.866.888Z" transform="translate(2938.047 1878.979)"/>
-    </g>
-    <g id="Grupo_37" data-name="Grupo 37" transform="translate(-2931.718 -1876.762)">
-      <rect id="Retângulo_69" data-name="Retângulo 69" class="cls-1" width="1.566" height="5.046" transform="translate(0 1.211) rotate(-50.675)"/>
-    </g>
-    <g id="Grupo_38" data-name="Grupo 38" transform="translate(-2929.993 -1879.205)">
-      <rect id="Retângulo_70" data-name="Retângulo 70" class="cls-1" width="1.565" height="4.56" transform="translate(0 1.368) rotate(-60.956)"/>
-    </g>
-    <g id="Grupo_39" data-name="Grupo 39" transform="translate(-2928.706 -1881.875)">
-      <rect id="Retângulo_71" data-name="Retângulo 71" class="cls-1" width="1.566" height="2.034" transform="translate(0 1.482) rotate(-71.237)"/>
-    </g>
-    <g id="Grupo_40" data-name="Grupo 40" transform="translate(-2927.894 -1884.686)">
-      <rect id="Retângulo_72" data-name="Retângulo 72" class="cls-1" width="1.565" height="6.099" transform="translate(0 1.548) rotate(-81.523)"/>
-    </g>
-    <g id="Grupo_41" data-name="Grupo 41" transform="translate(-2927.636 -1887.67)">
-      <rect id="Retângulo_73" data-name="Retângulo 73" class="cls-1" width="3.873" height="1.566" transform="translate(0 0.122) rotate(-1.805)"/>
-    </g>
-    <g id="Grupo_42" data-name="Grupo 42" transform="translate(-2928.12 -1891.394)">
-      <rect id="Retângulo_74" data-name="Retângulo 74" class="cls-1" width="4.896" height="1.566" transform="matrix(0.978, -0.21, 0.21, 0.978, 0, 1.026)"/>
-    </g>
-    <g id="Grupo_43" data-name="Grupo 43" transform="translate(-2929.1 -1894.329)">
-      <rect id="Retângulo_75" data-name="Retângulo 75" class="cls-1" width="3.339" height="1.565" transform="translate(0 1.273) rotate(-22.403)"/>
-    </g>
-    <g id="Grupo_44" data-name="Grupo 44" transform="translate(-2930.544 -1900.77)">
-      <rect id="Retângulo_76" data-name="Retângulo 76" class="cls-1" width="9.711" height="1.565" transform="translate(0 5.241) rotate(-32.663)"/>
-    </g>
-    <g id="Grupo_45" data-name="Grupo 45" transform="translate(-2932.406 -1898.852)">
-      <rect id="Retângulo_77" data-name="Retângulo 77" class="cls-1" width="1.688" height="1.565" transform="matrix(0.732, -0.682, 0.682, 0.732, 0, 1.15)"/>
-    </g>
-    <g id="Grupo_46" data-name="Grupo 46" transform="translate(-2938.376 -1894.378)">
-      <path id="Caminho_38" data-name="Caminho 38" class="cls-1" d="M-2941.49-1895.378l-.6-.5.412-.487.6.5-.29.347Z" transform="translate(2942.091 1896.367)"/>
-    </g>
-    <g id="Grupo_47" data-name="Grupo 47" transform="translate(-2940.575 -1895.226)">
-      <rect id="Retângulo_78" data-name="Retângulo 78" class="cls-1" width="2.382" height="0.782" transform="translate(0 2.133) rotate(-63.564)"/>
-    </g>
-    <g id="Grupo_48" data-name="Grupo 48" transform="translate(-2941.563 -1895.801)">
-      <rect id="Retângulo_79" data-name="Retângulo 79" class="cls-1" width="1.374" height="0.783" transform="translate(0 1.319) rotate(-73.809)"/>
-    </g>
-    <g id="Grupo_49" data-name="Grupo 49" transform="translate(-2943.164 -1896.071)">
-      <rect id="Retângulo_80" data-name="Retângulo 80" class="cls-1" width="2.367" height="0.783" transform="matrix(0.103, -0.995, 0.995, 0.103, 0, 2.354)"/>
-    </g>
-    <g id="Grupo_50" data-name="Grupo 50" transform="translate(-2944.684 -1896.084)">
-      <rect id="Retângulo_81" data-name="Retângulo 81" class="cls-1" width="0.783" height="2.185" transform="matrix(0.997, -0.076, 0.076, 0.997, 0, 0.06)"/>
-    </g>
-    <g id="Grupo_51" data-name="Grupo 51" transform="translate(-2946.409 -1895.862)">
-      <rect id="Retângulo_82" data-name="Retângulo 82" class="cls-1" width="0.783" height="2.767" transform="matrix(0.967, -0.253, 0.253, 0.967, 0, 0.198)"/>
-    </g>
-    <g id="Grupo_52" data-name="Grupo 52" transform="translate(-2948.042 -1895.332)">
-      <rect id="Retângulo_83" data-name="Retângulo 83" class="cls-1" width="0.783" height="3.221" transform="translate(0 0.33) rotate(-24.959)"/>
-    </g>
-    <g id="Grupo_53" data-name="Grupo 53" transform="translate(-2949.531 -1894.509)">
-      <path id="Caminho_39" data-name="Caminho 39" class="cls-1" d="M-2949.541-1892.62l-2.388-3.412.639-.451,2.387,3.411Z" transform="translate(2951.928 1896.483)"/>
-    </g>
-    <g id="Grupo_54" data-name="Grupo 54" transform="translate(-2950.827 -1893.423)">
-      <rect id="Retângulo_84" data-name="Retângulo 84" class="cls-1" width="0.782" height="2.692" transform="translate(0 0.558) rotate(-45.515)"/>
-    </g>
-    <g id="Grupo_55" data-name="Grupo 55" transform="translate(-2951.889 -1892.106)">
-      <rect id="Retângulo_85" data-name="Retângulo 85" class="cls-1" width="0.783" height="2.397" transform="translate(0 0.647) rotate(-55.802)"/>
-    </g>
-    <g id="Grupo_56" data-name="Grupo 56" transform="translate(-2952.684 -1890.6)">
-      <rect id="Retângulo_86" data-name="Retângulo 86" class="cls-1" width="0.782" height="3.091" transform="matrix(0.405, -0.914, 0.914, 0.405, 0, 0.715)"/>
-    </g>
-    <g id="Grupo_57" data-name="Grupo 57" transform="translate(-2953.185 -1888.956)">
-      <rect id="Retângulo_87" data-name="Retângulo 87" class="cls-1" width="0.783" height="1.111" transform="translate(0 0.761) rotate(-76.382)"/>
-    </g>
-    <g id="Grupo_58" data-name="Grupo 58" transform="translate(-2953.376 -1887.224)">
-      <rect id="Retângulo_88" data-name="Retângulo 88" class="cls-1" width="0.782" height="1.957" transform="matrix(0.058, -0.998, 0.998, 0.058, 0, 0.781)"/>
-    </g>
-    <g id="Grupo_59" data-name="Grupo 59" transform="translate(-2953.345 -1885.707)">
-      <rect id="Retângulo_89" data-name="Retângulo 89" class="cls-1" width="2.018" height="0.783" transform="translate(0 0.244) rotate(-6.956)"/>
-    </g>
-    <g id="Grupo_60" data-name="Grupo 60" transform="translate(-2953.045 -1884.889)">
-      <path id="Caminho_40" data-name="Caminho 40" class="cls-1" d="M-2954.795-1886.089l-.232-.747,3.8-1.164.231.747Z" transform="translate(2955.027 1887.999)"/>
-    </g>
-    <g id="Grupo_61" data-name="Grupo 61" transform="translate(-2952.44 -1883.154)">
-      <rect id="Retângulo_90" data-name="Retângulo 90" class="cls-1" width="2.345" height="0.783" transform="translate(0 1.085) rotate(-27.56)"/>
-    </g>
-    <g id="Grupo_62" data-name="Grupo 62" transform="translate(-2951.549 -1881.911)">
-      <rect id="Retângulo_91" data-name="Retângulo 91" class="cls-1" width="2.221" height="0.783" transform="translate(0 1.362) rotate(-37.817)"/>
-    </g>
-    <g id="Grupo_63" data-name="Grupo 63" transform="translate(-2950.401 -1880.92)">
-      <rect id="Retângulo_92" data-name="Retângulo 92" class="cls-1" width="2.296" height="0.782" transform="matrix(0.668, -0.744, 0.744, 0.668, 0, 1.709)"/>
-    </g>
-    <g id="Grupo_64" data-name="Grupo 64" transform="translate(-2949.031 -1880.842)">
-      <rect id="Retângulo_93" data-name="Retângulo 93" class="cls-1" width="3.217" height="0.783" transform="translate(0 2.741) rotate(-58.432)"/>
-    </g>
-    <g id="Grupo_65" data-name="Grupo 65" transform="translate(-2947.488 -1879.51)">
-      <rect id="Retângulo_94" data-name="Retângulo 94" class="cls-1" width="2.422" height="0.783" transform="translate(0 2.257) rotate(-68.69)"/>
-    </g>
-    <g id="Grupo_66" data-name="Grupo 66" transform="translate(-2945.816 -1879.287)">
-      <rect id="Retângulo_95" data-name="Retângulo 95" class="cls-1" width="2.643" height="0.783" transform="translate(0 2.594) rotate(-78.966)"/>
-    </g>
-    <g id="Grupo_67" data-name="Grupo 67" transform="translate(-2944.072 -1879.529)">
-      <rect id="Retângulo_96" data-name="Retângulo 96" class="cls-1" width="3.087" height="0.782" transform="matrix(0.013, -1, 1, 0.013, 0, 3.087)"/>
-    </g>
-    <g id="Grupo_68" data-name="Grupo 68" transform="translate(-2942.645 -1878.63)">
-      <rect id="Retângulo_97" data-name="Retângulo 97" class="cls-1" width="0.782" height="2.022" transform="matrix(0.986, -0.166, 0.166, 0.986, 0, 0.129)"/>
-    </g>
-    <g id="Grupo_69" data-name="Grupo 69" transform="translate(-2941.599 -1879.947)">
-      <rect id="Retângulo_98" data-name="Retângulo 98" class="cls-1" width="0.783" height="2.974" transform="translate(0 0.266) rotate(-19.851)"/>
-    </g>
-    <g id="Grupo_70" data-name="Grupo 70" transform="translate(-2939.333 -1878.594)">
-      <rect id="Retângulo_99" data-name="Retângulo 99" class="cls-1" width="0.782" height="0.74" transform="translate(0 0.392) rotate(-30.086)"/>
-    </g>
-    <g id="Grupo_71" data-name="Grupo 71" transform="translate(-2940.279 -1882.305)">
-      <path id="Caminho_41" data-name="Caminho 41" class="cls-1" d="M-2940.973-1881.936l-2.8-3.277.6-.508,2.8,3.278Z" transform="translate(2943.769 1885.721)"/>
-    </g>
-    <g id="Grupo_72" data-name="Grupo 72" transform="translate(-2938.283 -1882.041)">
-      <rect id="Retângulo_100" data-name="Retângulo 100" class="cls-1" width="0.783" height="2.695" transform="translate(0 0.605) rotate(-50.671)"/>
-    </g>
-    <g id="Grupo_73" data-name="Grupo 73" transform="translate(-2937.632 -1883.207)">
-      <rect id="Retângulo_101" data-name="Retângulo 101" class="cls-1" width="0.782" height="2.839" transform="translate(0 0.684) rotate(-60.944)"/>
-    </g>
-    <g id="Grupo_74" data-name="Grupo 74" transform="translate(-2937.866 -1884.669)">
-      <path id="Caminho_42" data-name="Caminho 42" class="cls-1" d="M-2938.147-1885.863l-3.494-1.2.251-.741,3.495,1.2Z" transform="translate(2941.641 1887.806)"/>
-    </g>
-    <g id="Grupo_75" data-name="Grupo 75" transform="translate(-2936.254 -1885.548)">
-      <rect id="Retângulo_102" data-name="Retângulo 102" class="cls-1" width="0.783" height="2.391" transform="translate(0 0.774) rotate(-81.494)"/>
-    </g>
-    <g id="Grupo_76" data-name="Grupo 76" transform="translate(-2936.782 -1886.957)">
-      <rect id="Retângulo_103" data-name="Retângulo 103" class="cls-1" width="3.044" height="0.782" transform="translate(0 0.096) rotate(-1.801)"/>
-    </g>
-    <g id="Grupo_77" data-name="Grupo 77" transform="translate(-2936.733 -1888.697)">
-      <rect id="Retângulo_104" data-name="Retângulo 104" class="cls-1" width="2.771" height="0.783" transform="translate(0 0.581) rotate(-12.103)"/>
-    </g>
-    <g id="Grupo_78" data-name="Grupo 78" transform="translate(-2937.543 -1890.358)">
-      <rect id="Retângulo_105" data-name="Retângulo 105" class="cls-1" width="3.17" height="0.782" transform="translate(0 1.207) rotate(-22.372)"/>
-    </g>
-    <g id="Grupo_79" data-name="Grupo 79" transform="translate(-2936.647 -1891.888)">
-      <rect id="Retângulo_106" data-name="Retângulo 106" class="cls-1" width="1.379" height="0.783" transform="translate(0 0.744) rotate(-32.633)"/>
-    </g>
-    <g id="Grupo_80" data-name="Grupo 80" transform="translate(-2939.345 -1893.239)">
-      <rect id="Retângulo_107" data-name="Retângulo 107" class="cls-1" width="3.721" height="0.783" transform="matrix(0.731, -0.682, 0.682, 0.731, 0, 2.537)"/>
-    </g>
-    <g id="Grupo_81" data-name="Grupo 81" transform="translate(-2913.972 -1899.533)">
-      <path id="Caminho_43" data-name="Caminho 43" class="cls-1" d="M-2915.107-1890.185a5.221,5.221,0,0,1-5.463-5.367,5.216,5.216,0,0,1,5.463-5.361,5.216,5.216,0,0,1,5.447,5.361,5.213,5.213,0,0,1-5.447,5.367m0-8.718c-1.874,0-2.969,1.268-2.969,3.351,0,2.1,1.1,3.351,2.969,3.351,1.858,0,2.954-1.247,2.954-3.351,0-2.083-1.1-3.351-2.954-3.351" transform="translate(2920.57 1900.914)"/>
-    </g>
-    <g id="Grupo_82" data-name="Grupo 82" transform="translate(-2899.476 -1899.417)">
-      <path id="Caminho_44" data-name="Caminho 44" class="cls-1" d="M-2905.351-1893.823v3.51h-2.435v-10.5h3.7c2.955,0,4.224,1.491,4.224,3.43,0,2.1-1.32,3.558-4.224,3.558Zm0-1.837h1.268c1.269,0,1.788-.634,1.788-1.721,0-.96-.562-1.607-1.788-1.607h-1.268Z" transform="translate(2907.786 1900.812)"/>
-    </g>
-    <g id="Grupo_83" data-name="Grupo 83" transform="translate(-2888.183 -1899.417)">
-      <path id="Caminho_45" data-name="Caminho 45" class="cls-1" d="M-2891.068-1900.812v1.874h-4.309v2.45h3.3v1.8h-3.3v2.5h4.309v1.874h-6.759v-10.5Z" transform="translate(2897.827 1900.812)"/>
-    </g>
-    <g id="Grupo_84" data-name="Grupo 84" transform="translate(-2877.694 -1899.417)">
-      <path id="Caminho_46" data-name="Caminho 46" class="cls-1" d="M-2886.488-1900.437l4.986,6.3c-.035-.4-.057-.785-.057-1.124v-5.555h2.147v10.5h-1.268a.934.934,0,0,1-.85-.4l-4.95-6.255c.028.369.049.721.049,1.031v5.628h-2.146v-10.5h1.281a.8.8,0,0,1,.808.374" transform="translate(2888.577 1900.812)"/>
-    </g>
-    <g id="Grupo_85" data-name="Grupo 85" transform="translate(-2858.971 -1899.417)">
-      <path id="Caminho_47" data-name="Caminho 47" class="cls-1" d="M-2869.63-1896.56h.389a.889.889,0,0,0,.778-.339l2.364-3.43a1.11,1.11,0,0,1,1.052-.482h2.118l-3.113,4.243a2.071,2.071,0,0,1-.714.635,1.744,1.744,0,0,1,.915.748l3.171,4.871h-2.176a.953.953,0,0,1-.951-.447l-2.378-3.654a.883.883,0,0,0-.865-.366h-.59v4.467h-2.436v-10.5h2.436Z" transform="translate(2872.066 1900.812)"/>
-    </g>
-    <g id="Grupo_86" data-name="Grupo 86" transform="translate(-2846.458 -1899.417)">
-      <path id="Caminho_48" data-name="Caminho 48" class="cls-1" d="M-2858.942-1900.437l4.987,6.3c-.036-.4-.058-.785-.058-1.124v-5.555h2.147v10.5h-1.268a.936.936,0,0,1-.85-.4l-4.95-6.255c.028.369.05.721.05,1.031v5.628h-2.146v-10.5h1.283a.8.8,0,0,1,.806.374" transform="translate(2861.031 1900.812)"/>
-    </g>
-    <g id="Grupo_87" data-name="Grupo 87" transform="translate(-2833.708 -1899.533)">
-      <path id="Caminho_49" data-name="Caminho 49" class="cls-1" d="M-2844.327-1890.185a5.221,5.221,0,0,1-5.462-5.367,5.216,5.216,0,0,1,5.462-5.361,5.215,5.215,0,0,1,5.447,5.361,5.212,5.212,0,0,1-5.447,5.367m0-8.718c-1.873,0-2.968,1.268-2.968,3.351,0,2.1,1.1,3.351,2.968,3.351s2.955-1.247,2.955-3.351c0-2.083-1.1-3.351-2.955-3.351" transform="translate(2849.789 1900.914)"/>
-    </g>
-    <g id="Grupo_88" data-name="Grupo 88" transform="translate(-2820.511 -1899.417)">
-      <path id="Caminho_50" data-name="Caminho 50" class="cls-1" d="M-2838.15-1900.812h2.047a.769.769,0,0,1,.807.525l1.44,5.477a8.2,8.2,0,0,1,.252,1.2c.094-.453.216-.85.324-1.2l1.7-5.477a.829.829,0,0,1,.792-.525h.721a.776.776,0,0,1,.807.525l1.687,5.477a10.1,10.1,0,0,1,.317,1.145c.078-.424.157-.806.245-1.145l1.442-5.477a.8.8,0,0,1,.79-.525h1.917l-3.242,10.5h-2.206l-1.973-6.507c-.065-.2-.145-.447-.209-.713-.066.267-.144.511-.21.713l-2,6.507h-2.206Z" transform="translate(2838.15 1900.812)"/>
-    </g>
-    <g id="Grupo_89" data-name="Grupo 89" transform="translate(-2802.067 -1899.418)">
-      <path id="Caminho_51" data-name="Caminho 51" class="cls-1" d="M-2819.449-1892.259h3.891v1.945h-6.327v-10.5h2.437Z" transform="translate(2821.886 1900.812)"/>
-    </g>
-    <g id="Grupo_90" data-name="Grupo 90" transform="translate(-2792.519 -1899.417)">
-      <path id="Caminho_52" data-name="Caminho 52" class="cls-1" d="M-2806.707-1900.812v1.874h-4.308v2.45h3.3v1.8h-3.3v2.5h4.308v1.874h-6.758v-10.5Z" transform="translate(2813.465 1900.812)"/>
-    </g>
-    <g id="Grupo_91" data-name="Grupo 91" transform="translate(-2782.032 -1899.417)">
-      <path id="Caminho_53" data-name="Caminho 53" class="cls-1" d="M-2800.139-1890.313h-4.079v-10.5h4.079a5.126,5.126,0,0,1,5.449,5.245,5.123,5.123,0,0,1-5.449,5.253m0-8.625h-1.627v6.752h1.627c1.859,0,2.956-1.283,2.956-3.379,0-2.082-1.1-3.372-2.956-3.372" transform="translate(2804.218 1900.812)"/>
-    </g>
-    <g id="Grupo_92" data-name="Grupo 92" transform="translate(-2769.542 -1899.533)">
-      <path id="Caminho_54" data-name="Caminho 54" class="cls-1" d="M-2786.026-1892.375v-1.592h-1.037a.434.434,0,0,1-.49-.432v-1.34h3.732v4.431a6.4,6.4,0,0,1-4.021,1.123,5.229,5.229,0,0,1-5.359-5.368,5.168,5.168,0,0,1,5.548-5.361,5.516,5.516,0,0,1,3.905,1.413l-.707,1.074a.663.663,0,0,1-.547.324.86.86,0,0,1-.447-.144,3.87,3.87,0,0,0-2.292-.656c-1.815,0-2.968,1.34-2.968,3.351,0,2.219,1.3,3.494,3.055,3.494a4,4,0,0,0,1.627-.317" transform="translate(2793.202 1900.914)"/>
-    </g>
-    <g id="Grupo_93" data-name="Grupo 93" transform="translate(-2756.24 -1899.417)">
-      <path id="Caminho_55" data-name="Caminho 55" class="cls-1" d="M-2774.713-1900.812v1.874h-4.309v2.45h3.3v1.8h-3.3v2.5h4.309v1.874h-6.759v-10.5Z" transform="translate(2781.472 1900.812)"/>
-    </g>
-    <g id="Grupo_94" data-name="Grupo 94" transform="translate(-2912.591 -1881.663)">
-      <path id="Caminho_56" data-name="Caminho 56" class="cls-1" d="M-2919.352-1876v-10.25h3.269a6.256,6.256,0,0,1,1.627.186,3.156,3.156,0,0,1,1.124.53,2.092,2.092,0,0,1,.651.84,2.851,2.851,0,0,1,.211,1.12,2.271,2.271,0,0,1-.118.73,2.152,2.152,0,0,1-.357.651,2.572,2.572,0,0,1-.6.536,3.374,3.374,0,0,1-.849.386,3.161,3.161,0,0,1,1.7.808,2.117,2.117,0,0,1,.573,1.545,2.9,2.9,0,0,1-.239,1.187,2.566,2.566,0,0,1-.7.923,3.286,3.286,0,0,1-1.13.6,5.064,5.064,0,0,1-1.528.212Zm1.388-5.658h1.831a3.549,3.549,0,0,0,1.015-.129,2.067,2.067,0,0,0,.712-.357,1.394,1.394,0,0,0,.418-.555,1.825,1.825,0,0,0,.136-.711,1.57,1.57,0,0,0-.544-1.323,2.739,2.739,0,0,0-1.688-.422h-1.881Zm0,.987v3.569h2.217a3.378,3.378,0,0,0,1.02-.136,1.923,1.923,0,0,0,.7-.383,1.49,1.49,0,0,0,.4-.587,2.079,2.079,0,0,0,.129-.747,1.539,1.539,0,0,0-.561-1.256,2.639,2.639,0,0,0-1.7-.461Z" transform="translate(2919.352 1886.363)"/>
-      <path id="Caminho_57" data-name="Caminho 57" class="cls-1" d="M-2905.973-1880.276V-1876h-1.381v-10.25h2.9a6.347,6.347,0,0,1,1.681.2,3.214,3.214,0,0,1,1.17.569,2.272,2.272,0,0,1,.682.9,3.008,3.008,0,0,1,.222,1.177,2.944,2.944,0,0,1-.172,1.015,2.659,2.659,0,0,1-.5.847,2.992,2.992,0,0,1-.793.641,4,4,0,0,1-1.063.4,1.475,1.475,0,0,1,.458.436l2.99,4.07h-1.23a.608.608,0,0,1-.558-.293l-2.661-3.663a.775.775,0,0,0-.265-.247.955.955,0,0,0-.429-.074Zm0-1.009h1.452a3.5,3.5,0,0,0,1.069-.147,2.159,2.159,0,0,0,.773-.415,1.719,1.719,0,0,0,.468-.639,2.078,2.078,0,0,0,.157-.823,1.634,1.634,0,0,0-.6-1.38,2.93,2.93,0,0,0-1.8-.465h-1.516Z" transform="translate(2919.614 1886.363)"/>
-      <path id="Caminho_58" data-name="Caminho 58" class="cls-1" d="M-2887.219-1876h-1.073a.465.465,0,0,1-.3-.093.567.567,0,0,1-.172-.236l-.958-2.475h-4.6l-.958,2.475a.559.559,0,0,1-.172.229.457.457,0,0,1-.3.1h-1.073l4.1-10.25h1.409Zm-6.717-3.805h3.827l-1.609-4.17a7.661,7.661,0,0,1-.308-.966q-.079.293-.154.54c-.051.165-.1.309-.147.433Z" transform="translate(2919.844 1886.363)"/>
-      <path id="Caminho_59" data-name="Caminho 59" class="cls-1" d="M-2878.089-1884.644a.544.544,0,0,1-.136.16.3.3,0,0,1-.186.054.5.5,0,0,1-.283-.122c-.108-.08-.244-.17-.407-.269a3.306,3.306,0,0,0-.594-.267,2.552,2.552,0,0,0-.84-.122,2.511,2.511,0,0,0-.823.125,1.777,1.777,0,0,0-.6.34,1.387,1.387,0,0,0-.361.5,1.59,1.59,0,0,0-.122.626,1.154,1.154,0,0,0,.211.711,1.819,1.819,0,0,0,.557.483,4.272,4.272,0,0,0,.787.347q.44.147.9.3c.308.1.608.223.9.353a3.2,3.2,0,0,1,.787.5,2.255,2.255,0,0,1,.556.737,2.439,2.439,0,0,1,.212,1.073,3.452,3.452,0,0,1-.229,1.262,2.937,2.937,0,0,1-.669,1.027,3.154,3.154,0,0,1-1.08.687,3.984,3.984,0,0,1-1.455.25,4.439,4.439,0,0,1-1.814-.362,4.242,4.242,0,0,1-1.4-.976l.4-.658a.545.545,0,0,1,.139-.133.329.329,0,0,1,.183-.053.566.566,0,0,1,.343.161,5.719,5.719,0,0,0,.483.354,3.679,3.679,0,0,0,.7.354,2.768,2.768,0,0,0,1,.161,2.627,2.627,0,0,0,.88-.136,1.862,1.862,0,0,0,.654-.383,1.665,1.665,0,0,0,.412-.59,1.981,1.981,0,0,0,.143-.765,1.29,1.29,0,0,0-.21-.762,1.768,1.768,0,0,0-.555-.5,3.833,3.833,0,0,0-.784-.34l-.9-.286a8.94,8.94,0,0,1-.9-.34,2.941,2.941,0,0,1-.782-.5,2.324,2.324,0,0,1-.555-.769,2.756,2.756,0,0,1-.211-1.141,2.729,2.729,0,0,1,.211-1.051,2.748,2.748,0,0,1,.612-.9,2.973,2.973,0,0,1,.99-.629,3.632,3.632,0,0,1,1.356-.236,4.353,4.353,0,0,1,1.566.272,3.6,3.6,0,0,1,1.238.787Z" transform="translate(2920.12 1886.361)"/>
-      <path id="Caminho_60" data-name="Caminho 60" class="cls-1" d="M-2871.5-1876h-1.388v-10.25h1.388Z" transform="translate(2920.368 1886.363)"/>
-      <path id="Caminho_61" data-name="Caminho 61" class="cls-1" d="M-2864.651-1877.164h4.435V-1876h-5.823v-10.25h1.389Z" transform="translate(2920.516 1886.363)"/>
-    </g>
-  </g>
+<svg width="182" height="52" viewBox="0 0 182 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_446_198)">
+<path d="M32.2746 19.7262C33.587 21.0386 34.462 22.7488 34.7602 24.5981L38.5583 20.8L48.0635 11.2948L40.7059 3.93728L31.2008 13.4424V0H20.8008V18.8115C24.3205 16.2662 29.1924 16.644 32.2746 19.7262Z" fill="#00CFA3"/>
+<path d="M34.7599 27.4023C34.0043 32.2345 29.4704 35.5354 24.6383 34.7599C23.2463 34.5412 21.9339 34.0043 20.8203 33.1691V51.9805H31.2203V38.5381L40.7255 48.0433L48.083 40.6857L38.5779 31.1805L34.7599 27.4023Z" fill="#00CFA3"/>
+<path d="M40.7052 45.2589L32.6119 37.1457L31.0807 35.6145C33.0096 34.5805 34.6004 33.0096 35.6344 31.0608L37.1855 32.6119L45.2987 40.725L40.7052 45.2589ZM29.2115 38.5576V50.0115H22.7686V36.3702C24.8566 37.0065 27.1036 37.0065 29.1916 36.3702L29.2115 38.5576ZM18.8314 37.7224L11.2948 45.239L6.74111 40.6853L14.8543 32.6119L16.3855 31.0807C16.9025 32.0352 17.5388 32.93 18.3143 33.6857C18.4734 33.8447 18.6325 34.0038 18.8115 34.143L18.8314 37.7224ZM1.98853 29.2115V22.7885H15.6298C14.9935 24.8765 14.9935 27.1235 15.6298 29.2115H1.98853ZM6.76099 11.2948L11.2948 6.74111L18.8115 14.2577V17.857C18.6325 18.0161 18.4734 18.1553 18.3143 18.3143C17.5388 19.0899 16.8826 19.9648 16.3855 20.9392L14.8543 19.408L6.76099 11.2948ZM29.2314 1.98853V15.6298C27.1434 14.9935 24.8964 14.9935 22.8084 15.6298V1.98853H29.2314ZM32.6119 14.8543L40.725 6.74111L45.2788 11.2948L37.1656 19.408L35.6145 20.9591C35.0975 19.9847 34.4612 19.1098 33.6857 18.3342C32.9101 17.5587 32.0352 16.9025 31.0807 16.4054L32.6119 14.8543ZM34.7595 27.4019C33.9839 32.234 29.4302 35.535 24.5981 34.7595C19.766 33.9839 16.465 29.4302 17.2405 24.5981C17.5388 22.7488 18.4138 21.0386 19.7262 19.7262C20.0642 19.3881 20.4222 19.0899 20.8 18.8115C24.7572 15.9281 30.2853 16.8031 33.1686 20.7602C33.9839 21.8937 34.5407 23.2061 34.7595 24.5981L38.5576 20.8L48.0627 11.2948L40.7052 3.93728L31.2 13.4424V0H20.8V13.4424L11.2948 3.93728L3.93728 11.2948L13.4424 20.8H0V31.2H13.4424L3.93728 40.7052L11.2948 48.0627L20.8 38.5576V52H31.2V38.5576L40.7052 48.0627L48.0627 40.7052L38.5576 31.2L34.7595 27.4019Z" fill="black"/>
+<path d="M51.9844 16.4268C51.9844 12.6307 54.3249 10.1172 57.7551 10.1172C61.1853 10.1172 63.5258 12.6307 63.5258 16.4268C63.5258 20.2229 61.1853 22.7185 57.7551 22.7185C54.3249 22.7185 51.9844 20.205 51.9844 16.4268ZM61.3603 16.4268C61.3603 13.8099 59.9564 12.1813 57.7551 12.1813C55.5538 12.1813 54.1499 13.794 54.1499 16.4268C54.1499 19.0596 55.5538 20.6564 57.7551 20.6564C59.9564 20.6564 61.3603 19.0278 61.3603 16.4268Z" fill="black"/>
+<path d="M73.5806 18.1945C73.5806 20.9844 72.0733 22.6309 69.9754 22.6309C69.005 22.6309 68.0525 22.2332 67.5136 21.5909V25.9935H65.4336V13.9132H67.5136V14.7623C68.1022 14.0345 69.0567 13.7402 69.9754 13.7402C72.298 13.7402 73.5806 15.6293 73.5806 18.1945ZM71.5006 18.1766C71.5006 16.4963 70.8603 15.5597 69.4723 15.5597C67.965 15.5597 67.3227 16.6514 67.3227 18.1766C67.3227 19.7018 67.963 20.8114 69.4544 20.8114C70.8404 20.8114 71.4986 19.841 71.4986 18.1766H71.5006Z" fill="black"/>
+<path d="M82.5749 18.8706H76.7167C76.8042 19.9981 77.4962 20.7418 78.8484 20.7418C79.61 20.7418 80.304 20.4992 80.8946 19.8231L82.3323 21.0878C81.3957 22.1278 80.2702 22.6309 78.8305 22.6309C75.8835 22.6309 74.6367 20.5171 74.6367 18.2283C74.6367 15.9395 75.8497 13.7402 78.6933 13.7402C81.344 13.7402 82.6266 15.6989 82.6266 18.0732C82.6266 18.3337 82.6087 18.5942 82.5749 18.8706ZM80.6341 17.2241C80.6003 16.1324 79.7671 15.4742 78.6754 15.4742C77.4107 15.4742 76.8201 16.375 76.6988 17.2241H80.6341Z" fill="black"/>
+<path d="M92.0215 16.9477V22.4599H89.9415V17.4687C89.9415 16.8801 89.9415 15.5617 88.3646 15.5617C86.4238 15.5617 86.4237 17.5204 86.4237 19.0456V22.4599H84.3438V13.9152H86.4237V14.9035C87.0302 14.0882 87.9669 13.7422 89.0069 13.7422C90.9298 13.7422 92.0234 14.9214 92.0234 16.9477H92.0215Z" fill="black"/>
+<path d="M106.825 22.4592L103.255 16.4459L100.951 18.7864V22.4612H98.7852V10.3809H100.951V16.0661L106.375 10.3809H109.217L104.729 14.9565L109.338 22.4612H106.825V22.4592Z" fill="black"/>
+<path d="M118.141 16.9477V22.4599H116.061V17.4687C116.061 16.8801 116.061 15.5617 114.484 15.5617C112.543 15.5617 112.543 17.5204 112.543 19.0456V22.4599H110.463V13.9152H112.543V14.9035C113.149 14.0882 114.086 13.7422 115.126 13.7422C117.049 13.7422 118.143 14.9214 118.143 16.9477H118.141Z" fill="black"/>
+<path d="M119.613 18.1786C119.613 15.7526 121.242 13.7422 123.895 13.7422C126.547 13.7422 128.176 15.7526 128.176 18.1786C128.176 20.6046 126.529 22.6329 123.895 22.6329C121.26 22.6329 119.613 20.5887 119.613 18.1786ZM126.096 18.1786C126.096 16.7747 125.471 15.5617 123.895 15.5617C122.318 15.5617 121.693 16.7747 121.693 18.1786C121.693 19.5825 122.318 20.8134 123.895 20.8134C125.471 20.8134 126.096 19.5646 126.096 18.1786Z" fill="black"/>
+<path d="M128.471 13.9141H130.69L132.145 19.2692L133.758 13.9141H135.544L137.157 19.2513L138.63 13.9141H140.849L138.214 22.4588H136.343L134.663 16.8611L132.983 22.4588H131.111L128.477 13.9141H128.471Z" fill="black"/>
+<path d="M142.043 20.413V10.3789H144.123V20.2758C144.123 20.6576 144.348 20.8127 144.729 20.8127C144.92 20.8127 145.145 20.7789 145.388 20.7093V22.3737C144.92 22.5467 144.451 22.6342 144.053 22.6342C142.892 22.6342 142.043 21.9402 142.043 20.415V20.413Z" fill="black"/>
+<path d="M154.175 18.8706H148.316C148.404 19.9981 149.096 20.7418 150.448 20.7418C151.21 20.7418 151.904 20.4992 152.492 19.8231L153.93 21.0878C152.993 22.1278 151.868 22.6309 150.428 22.6309C147.481 22.6309 146.234 20.5171 146.234 18.2283C146.234 15.9395 147.447 13.7402 150.291 13.7402C152.942 13.7402 154.226 15.6989 154.226 18.0732C154.226 18.3337 154.208 18.5942 154.175 18.8706ZM152.234 17.2241C152.2 16.1324 151.367 15.4742 150.275 15.4742C149.01 15.4742 148.42 16.375 148.298 17.2241H152.234Z" fill="black"/>
+<path d="M163.432 10.3789V22.4592H161.352V21.6101C160.764 22.3379 159.809 22.6322 158.89 22.6322C156.568 22.6322 155.285 20.7431 155.285 18.1779C155.285 15.388 156.792 13.7415 158.89 13.7415C159.861 13.7415 160.813 14.1392 161.352 14.7815V10.3789H163.432ZM161.543 18.1958C161.543 16.774 160.903 15.6306 159.411 15.6306C158.025 15.6306 157.365 16.601 157.365 18.1958C157.365 19.7906 158.005 20.7093 159.393 20.7093C160.901 20.7093 161.543 19.6176 161.543 18.1958Z" fill="black"/>
+<path d="M173.12 23.6197C173.12 25.4054 171.491 26.167 169.185 26.167C166.637 26.167 165.182 25.2304 165.182 23.4626C165.182 23.2538 165.2 23.1683 165.215 23.0808L166.446 22.3013C165.84 21.9712 165.424 21.4343 165.424 20.5514C165.424 19.8057 165.719 19.2688 166.222 18.8353C165.788 18.2984 165.528 17.6223 165.528 16.8766C165.528 15.0213 167.122 13.7387 169.029 13.7387C169.775 13.7387 170.467 13.9296 171.04 14.2756L172.34 13.166L173.432 14.4824L172.201 15.4886C172.426 15.9221 172.565 16.4252 172.565 16.98C172.565 18.887 170.97 20.1 169.099 20.1C168.51 20.1 167.956 19.9787 167.453 19.7699C167.297 19.8733 167.21 20.0125 167.21 20.2213C167.21 20.8457 168.077 21.0187 169.151 21.1579C170.885 21.3826 173.12 21.5735 173.12 23.6197ZM171.04 23.8106C171.04 23.1524 169.948 23.0828 168.717 22.9098L168.007 22.8064L167.262 23.5163C167.244 23.568 167.244 23.6197 167.244 23.6555C167.244 24.3833 168.302 24.608 169.272 24.608C170.157 24.608 171.04 24.3992 171.04 23.8106ZM167.608 16.9303C167.608 17.7456 168.093 18.4038 169.063 18.4038C170.034 18.4038 170.485 17.7635 170.485 16.9303C170.485 16.0454 169.948 15.4747 169.063 15.4747C168.178 15.4747 167.608 16.0633 167.608 16.9303Z" fill="black"/>
+<path d="M181.491 18.8706H175.633C175.72 19.9981 176.412 20.7418 177.764 20.7418C178.526 20.7418 179.22 20.4992 179.811 19.8231L181.248 21.0878C180.312 22.1278 179.186 22.6309 177.747 22.6309C174.8 22.6309 173.553 20.5171 173.553 18.2283C173.553 15.9395 174.766 13.7402 177.609 13.7402C180.26 13.7402 181.543 15.6989 181.543 18.0732C181.543 18.3337 181.525 18.5942 181.491 18.8706ZM179.55 17.2241C179.516 16.1324 178.683 15.4742 177.591 15.4742C176.327 15.4742 175.736 16.375 175.615 17.2241H179.55Z" fill="black"/>
+<path d="M52.832 28.0781H57.0437C59.4538 28.0781 60.8736 29.2215 60.8736 31.1285C60.8736 32.256 60.3884 33.1568 59.5393 33.642C60.8398 34.1093 61.5159 35.1155 61.5159 36.6228C61.5159 38.842 60.0424 40.1584 57.5806 40.1584H52.832V28.0781ZM57.0437 32.8784C58.1354 32.8784 58.7081 32.4111 58.7081 31.5083C58.7081 30.6055 58.1016 30.0706 57.0437 30.0706H54.9975V32.8784H57.0437ZM57.4076 38.1639C58.6206 38.1639 59.3484 37.5057 59.3484 36.4478C59.3484 35.3899 58.6723 34.8709 57.4076 34.8709H54.9975V38.1639H57.4076Z" fill="black"/>
+<path d="M69.4039 31.9246L68.3997 33.762C68.1054 33.5711 67.7753 33.4677 67.3597 33.4677C66.095 33.4677 65.4706 34.2472 65.4706 35.8599V40.1591H63.3906V31.6144H65.4885V33.07C65.8524 32.0121 66.8049 31.4414 67.7753 31.4414C68.348 31.4414 68.8491 31.5806 69.4039 31.9266V31.9246Z" fill="black"/>
+<path d="M77.482 34.7682V40.1591H75.575L75.402 39.0495C74.8989 39.8469 73.9285 40.3321 72.803 40.3321C71.0013 40.3321 69.7188 39.1708 69.7188 37.5422C69.7188 36.536 70.1701 35.7744 71.0013 35.3926C71.574 35.1321 72.3018 35.0108 73.2722 35.0108H75.404V34.7682C75.404 33.8316 74.7795 33.2609 73.7913 33.2609C72.9243 33.2609 72.109 33.7123 71.4865 34.5435L69.9792 33.2788C71.0013 32.0479 72.2661 31.4414 73.827 31.4414C76.0801 31.4414 77.4839 32.7061 77.4839 34.7682H77.482ZM75.402 36.5698H73.5467C72.8368 36.5698 72.4192 36.6573 72.1428 36.8641C71.9181 37.0192 71.7968 37.2618 71.7968 37.574C71.7968 38.1805 72.2999 38.5623 73.1311 38.5623C74.3799 38.5623 75.402 37.6794 75.402 36.5698Z" fill="black"/>
+<path d="M78.7637 37.938L80.4281 37.1923C80.6528 37.8167 81.1042 38.5962 82.2476 38.5962C83.218 38.5962 83.6336 38.0414 83.6336 37.59C83.6336 36.1523 79.231 37.1048 79.231 33.9331C79.231 32.2866 80.7224 31.4375 82.3689 31.4375C83.8424 31.4375 84.9679 32.1315 85.6102 33.2928L83.9975 34.1757C83.7032 33.6388 83.2359 33.084 82.2993 33.084C81.6232 33.084 81.2076 33.4141 81.2076 33.8118C81.2076 35.1123 85.6798 34.3487 85.6798 37.4687C85.6798 39.4612 83.9637 40.3282 82.353 40.3282C80.5514 40.3282 79.1813 39.2365 78.7657 37.936L78.7637 37.938Z" fill="black"/>
+<path d="M87.3789 28.0781H89.5623V30.001H87.3789V28.0781ZM87.4306 31.6137H89.5106V40.1584H87.4306V31.6137Z" fill="black"/>
+<path d="M91.8477 38.1122V28.0781H93.9277V37.975C93.9277 38.3568 94.1524 38.5119 94.5342 38.5119C94.7251 38.5119 94.9498 38.4781 95.1924 38.4085V40.0729C94.7251 40.2459 94.2558 40.3334 93.8581 40.3334C92.6968 40.3334 91.8477 39.6394 91.8477 38.1142V38.1122Z" fill="black"/>
+</g>
+<defs>
+<clipPath id="clip0_446_198">
+<rect width="181.543" height="52" fill="white"/>
+</clipPath>
+</defs>
 </svg>

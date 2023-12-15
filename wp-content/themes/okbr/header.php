@@ -14,6 +14,10 @@
     </title>
 	<?php wp_head(); ?>
 	<link rel="icon" type="image/png" href="<?php tu(); ?>/assets/images/icon.png" />
-    <link rel="stylesheet" href="<?php tu(); ?>/build/style.css?v=3">
+    <link rel="stylesheet" href="<?php tu(); ?>/build/style.css?v=20231101">
+    <!-- FontGoogle -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100;300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>

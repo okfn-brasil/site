@@ -1,7 +1,8 @@
 <?php if( have_rows('conteudo') ): while ( have_rows('conteudo') ) : the_row(); ?>
     <?php if( get_row_layout() == 'texto' ): ?>          
         <div class="row center-xs">
-            <div class="col-xs-12 col-sm-9 col-md-6 tl">
+           <!--  Modificação de col-md-6 para col-md-8 -->
+            <div class="col-xs-12 col-sm-9 col-md-8 tl">
                 <?php echo get_sub_field('texto'); ?>
             </div>
         </div>
@@ -30,7 +31,7 @@
             <div class="col-xs-12 col-sm-6 <?php acertagrid($i,$count); ?> mb4">
                 <div class="bg-cinza p2">
                     <h4 class="uc tcv ls1 w600"><?php md_sub_field('titulo'); ?></h4>
-                    <p class="tcb"><?php md_sub_field('texto'); ?></p>
+                    <p class=""><?php md_sub_field('texto'); ?></p>
                 </div>
             </div>
             <?php endwhile;  endif; ?>
@@ -48,7 +49,7 @@
             </div>
         </div>
     <?php elseif( get_row_layout() == 'titulodesecao' ): ?>
-        <h2 class="titulo-secao tcb mb2"><?php the_sub_field('titulo'); ?></h2>
+        <h2 class="titulo-secao mb2"><?php the_sub_field('titulo'); ?></h2>
     <?php elseif( get_row_layout() == 'margem' ): ?>
         <div class="mb4"></div>
     <?php elseif( get_row_layout() == 'imagem' ): ?>
@@ -60,7 +61,7 @@
                         $img = $img ? isset($img['sizes']['full']) ? $img['sizes']['full'] : $img['url'] :  tu(0).'/assets/images/ph_full.png';
                     ?>
                     <img src="<?php echo $img; ?>">
-                    <figcaption class="t1 w400 tccc"><?php md_sub_field('legenda'); ?></figcaption>
+                    <figcaption class="t1 w400 "><?php md_sub_field('legenda'); ?></figcaption>
                 </figure>
             </div>
         </div>

@@ -2,13 +2,13 @@
 <?php get_template_part('block-menu'); ?>
     <main>
         <!-- Header -->
-        <header class="container-fluid bg-preto pt7 pt10-sm pb5">
+        <header class="container-fluid  pt7 pt10-sm pb5">
             <div class="wrap">
                 <div class="row mb2">
                     <div class="col-xs-12 center-xs">
-                        <h2 class="t3 w600 ff3 uc tcb mb2"><?php the_field('midia'); ?></h2>
-                        <h1 class="t6 w100 ff2 tcb mb2"><?php the_title(); ?></h1>
-                        <p class="t3 w100 ff2 uc tcb"><?php the_field('data'); ?></p>
+                        <h2 class="t3 w600 ff3 uc  mb2"><?php the_field('midia'); ?></h2>
+                        <h1 class="t6 w100 ff2  mb2"><?php the_title(); ?></h1>
+                        <p class="t3 w300 ff2 uc "><?php the_field('data'); ?></p>
                     </div>
                 </div>
                 <div class="row">

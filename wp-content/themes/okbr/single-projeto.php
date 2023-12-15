@@ -2,16 +2,16 @@
 <?php get_template_part('block-menu'); ?>
     <main>
         <!-- Header -->
-        <header class="container-fluid bg-preto pt7 pt10-sm pb3">
+        <header class="container-fluid  pt7 pt10-sm pb3">
             <div class="wrap">
                 <div class="row mb2">
                     <div class="col-xs-12 col-md-7">
                         <h2 class="t6 w600 ff2 tcv"><?php md_field('titulo'); ?></h2>
                     </div>
                 </div>
-                <div class="row middle-xs mb3">
+                <div class="row mb2">
                     <div class="col-xs-12 col-md-6 mb3 mb0-md">
-                        <p class="t4 tcb w400 lh1-50"><?php md_field('descricaocomp'); ?></p>
+                        <p class="t4  w400 lh1-50"><?php md_field('descricaocomp'); ?></p>
                     </div>
                     <div class="col-xs-12 col-md-6">
                         <!-- Detalhes -->
@@ -19,30 +19,30 @@
                                 <div class="row mb2">
                                     <?php if(get_field('ano')): ?>
                                     <div class="col-xs-12 col-sm-4">
-                                        <div class="t3 w400 tccc lh1-25 tl">Ano</div>
-                                        <div class="t3 w400 tcb lh1-50 tl"><?php md_field('ano'); ?></div>
+                                        <div class="t3 w400 tcc lh1-25 tl">Ano</div>
+                                        <div class="t3 w400  lh1-50 tl"><?php md_field('ano'); ?></div>
                                     </div>
                                     <?php endif; ?>
                                     <?php if(get_field('financiamento')): ?>
                                     <div class="col-xs-12 col-sm-4">
-                                        <div class="t3 w400 tccc lh1-25 tl">Financiamento</div>
-                                        <div class="t3 w400 tcb lh1-50 tl"><?php md_field('financiamento'); ?></div>
+                                        <div class="t3 w400 tcc lh1-25 tl">Financiamento</div>
+                                        <div class="t3 w400  lh1-50 tl"><?php md_field('financiamento'); ?></div>
                                     </div>
                                     <?php endif; ?>
                                     <?php if(get_field('parcerias')): ?>
                                     <div class="col-xs-12 col-sm-4">
-                                        <div class="t3 w400 tccc lh1-25 tl">Parceria</div>
-                                        <div class="t3 w400 tcb lh1-50 tl"><?php md_field('parcerias'); ?></div>
+                                        <div class="t3 w400 tcc lh1-25 tl">Parceria</div>
+                                        <div class="t3 w400  lh1-50 tl"><?php md_field('parcerias'); ?></div>
                                     </div>
                                     <?php endif; ?>
                                 </div>
                                 <div class="row bottom-xs">
                                     <div class="col-xs-12 col-sm-6 tl">
                                         <ul class="lista-horizontal mb2 mb0-sm">
-                                            <?php if($twitter = get_field('twitter')): ?><li><a href="<?php echo $twitter; ?>" target="_blank"><button class="rede-social rede-social-verde twitter mr1"></button></a></li><?php endif; ?>
-                                            <?php if($facebook = get_field('facebook')): ?><li><a href="<?php echo $facebook; ?>" target="_blank"><button class="rede-social rede-social-verde facebook mr1"></button></a></li><?php endif; ?>
-                                            <?php if($github = get_field('github')): ?><li><a href="<?php echo $github; ?>" target="_blank"><button class="rede-social rede-social-verde github mr1"></button></a></li><?php endif; ?>
-                                            <?php if($feed = get_field('feed')): ?><li><a href="<?php echo $feed; ?>" target="_blank"><button class="rede-social rede-social-verde feed mr1"></button></a></li><?php endif; ?>
+                                            <?php if($twitter = get_field('twitter')): ?><li><a href="<?php echo $twitter; ?>" target="_blank"><button class="rede-social rede-social-preto twitter mr1"></button></a></li><?php endif; ?>
+                                            <?php if($facebook = get_field('facebook')): ?><li><a href="<?php echo $facebook; ?>" target="_blank"><button class="rede-social rede-social-preto facebook mr1"></button></a></li><?php endif; ?>
+                                            <?php if($github = get_field('github')): ?><li><a href="<?php echo $github; ?>" target="_blank"><button class="rede-social rede-social-preto github mr1"></button></a></li><?php endif; ?>
+                                            <?php if($feed = get_field('feed')): ?><li><a href="<?php echo $feed; ?>" target="_blank"><button class="rede-social rede-social-preto feed mr1"></button></a></li><?php endif; ?>
                                         </ul>
                                     </div>
                                     <div class="col-xs-12 col-sm-6 tl tr-sm">
@@ -56,9 +56,9 @@
         </header>
 
         <!-- Conteúdo -->
-        <article class="container-fluid bg-preto pt3 pb5">
+        <article class="container-fluid   pb5">
             <div class="wrap">
-                <section class="conteudo tcb">
+                <section class="conteudo ">
                     <?php get_template_part('block-conteudo'); ?>
                 </section>
 
@@ -70,8 +70,8 @@
                     <?php endforeach; endif; wp_reset_postdata(); ?>
                     <?php if($website): ?>
                     <div class="col-xs-12 col-md-6">
-                        <div class="t4 w600 tcb mb1 tl">Quer saber mais?</div>
-                        <div class="t3 w400 lh1-50 tcb tl">Mais informações podem ser achadas no <a href="<?php echo $website; ?>" target="_blank" class="tcv w600 u">site do projeto</a></div>
+                        <div class="t4 w600  mb1 tl">Quer saber mais?</div>
+                        <div class="t3 w400 lh1-50  tl">Mais informações podem ser achadas no <a href="<?php echo $website; ?>" target="_blank" class="tcv w600 u">site do projeto</a></div>
                     </div>
                     <?php endif; ?>
                 </div>

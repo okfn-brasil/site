@@ -5,7 +5,7 @@ get_header();
 <?php get_template_part('block-menu'); ?>
     <main>
         <!-- Buscar -->
-        <header class="container-fluid bg-preto pt7 pt10-sm pb3">
+        <header class="container-fluid  pt7 pt10-sm pb3">
             <div class="wrap">
                 <div class="row bottom-xs">
                     <div class="col-xs-12 col-md-4">
@@ -17,12 +17,12 @@ get_header();
                 </div>
                 <div class="row">
                     <div class="col-xs-12 col-md-8 col-md-offset-4">
-                        <p class="t4 w400 tcb">Sua busca por "<strong><?php echo $_GET['s']; ?></strong>" retornou <?php echo $wp_query->found_posts; ?> resultados</p>
+                        <p class="t4 w400 ">Sua busca por "<strong><?php echo $_GET['s']; ?></strong>" retornou <?php echo $wp_query->found_posts; ?> resultados</p>
                     </div>
                 </div>
             </div>
         </header>
-        <div class="container-fluid bg-preto pt3 pb5">
+        <div class="container-fluid  pt3 pb5">
             <div class="wrap">
                 <div class="row mb5">
                     <div class="col-xs-12 col-md-8 col-md-offset-4">
@@ -30,15 +30,15 @@ get_header();
                         <?php if(get_post_type() == 'eixo'): ?>
                         <article class="mb2">
                             <a href="<?php echo the_permalink(); ?>">
-                                <p class="t4 tcb w400">eixo de atuação: <b><?php the_title(); ?></b></p>
+                                <p class="t4  w400">eixo de atuação: <b><?php the_title(); ?></b></p>
                                 <p class="t3 w400 tccc lh1-50"><?php md_field('descricao'); ?></p>
                             </a>
                         </article>
                         <?php elseif(get_post_type() == 'page'): ?>
                             <article class="mb2 bg-verde p1">
                                 <a href="<?php echo the_permalink(); ?>">
-                                    <p class="tcb t1 ff2 uc w100 mb05">Página</p>
-                                    <div class="t4 tcb w400"><b><?php the_title(); ?></b></div>
+                                    <p class=" t1 ff2 uc w300 mb05">Página</p>
+                                    <div class="t4  w400"><b><?php the_title(); ?></b></div>
                                 </a>
                             </article>
                         <?php elseif(get_post_type() == 'colaborador'): ?>
@@ -50,30 +50,15 @@ get_header();
                                 ?>
                                 <figure class="mr1 ml0"><img src="<?php echo $img; ?>"></figure>
                                 <div>
-                                    <p class="t4 tcb w400"><?php the_title(); ?></b></p>
+                                    <p class="t4  w400"><?php the_title(); ?></b></p>
                                     <p class="t3 w400 tccc lh1-50"><?php md_field('cargo'); ?></p>
                                 </div>
                             </a>
                         </article>                       
+                        <?php elseif(get_post_type() == 'clipping'): ?>
+                            <?php get_template_part('block-namidia'); ?>
                         <?php else: ?>
-                        <article class="mb2">
-                            <a href="<?php echo ($url = get_field('url')) ? $url : get_the_permalink(); ?>" <?php if($url) echo 'target="_blank"' ?> class="cartao cartao-horizontal middle-xs">
-                                <?php 
-                                    $img = get_field('imagem');
-                                    $img = $img ? isset($img['sizes']['thumbhor']) ? $img['sizes']['thumbhor'] : $img['url'] :  tu(0).'/assets/images/ph_thumbhor.png';
-                                ?>
-                                <figure><img src="<?php echo $img; ?>"></figure>
-                                <section class=" tcb p2 tl">
-                                    <div class="t1 ff2 yc w100 mb05">
-                                        <p><?php the_field('data'); ?></p>
-                                    </div>
-                                    <div class="t3 ff2 lh1-50 w600">
-                                        <p><?php the_title(); ?></p>
-                                    </div>
-                                    <button class="btn-txt btn-cartao">Leia Mais</button>
-                                </section>
-                            </a>
-                        </article>
+                            <?php get_template_part('block-noticia'); ?>
                         <?php endif; ?>
                         <?php endwhile; ?>
                     </div>
@@ -91,18 +76,18 @@ get_header();
                     if($c > $ppp):
                 ?>
                 <section class="row center-xs">
-                    <div class="col-xs-12 col-sm-10 col-md-8">
+                    <div class="col-xs-12 col-sm-12 col-md-8">
                         <ul class="lista-horizontal">
                             <?php if($pg > 1): ?><li><a href="<?php echo $ptal.'&paged='.($pg-1); ?>"><button class="btn-txt invertido mr2-sm p05">Voltar</button></a></li><?php endif; ?>
                             <?php if($pg-3 > 1): ?>
                                 <li><a href="<?php echo $ptal.'&paged='.(1); ?>"><button class="btn-txt semSeta p05 <?php if(1 == $pg) echo 'ativo'; ?>">Primeira</button></a></li>
-                                <li><span class="p05 tcb">...</span></li>
+                                <li><span class="p05 ">...</span></li>
                             <?php endif; ?>
                             <?php for ($i = max(1,$pg-3); $i <= min($max,$pg+3); $i++): ?>
                             <li><a href="<?php echo $ptal.'&paged='.($i); ?>"><button class="btn-txt semSeta p05 <?php if($i == $pg) echo 'ativo'; ?>"><?php echo $i; ?></button></a></li>
                             <?php endfor; ?>
                             <?php if($pg+3 < $max): ?>
-                                <li><span class="p05 tcb">...</span></li>
+                                <li><span class="p05 ">...</span></li>
                                 <li><a href="<?php echo $ptal.'&paged='.($max); ?>"><button class="btn-txt semSeta p05 <?php if($max == $pg) echo 'ativo'; ?>">Última</button></a></li>
                             <?php endif; ?>
                             <?php if($pg < $max): ?><li><a href="<?php echo $ptal.'&paged='.($pg+1); ?>"><button class="btn-txt ml2-sm p05">Proxima</button></a></li><?php endif; ?>

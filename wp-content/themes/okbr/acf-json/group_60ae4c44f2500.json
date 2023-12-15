@@ -145,7 +145,7 @@
                     "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
-                        "width": "",
+                        "width": "20%",
                         "class": "",
                         "id": ""
                     },
@@ -161,15 +161,34 @@
                     "mime_types": ""
                 },
                 {
-                    "key": "field_60ae4d299d44d",
-                    "label": "Twitter link",
-                    "name": "twitter",
-                    "type": "url",
+                    "key": "contato_c_t_area",
+                    "label": "Descrição",
+                    "name": "descricao",
+                    "type": "textarea",
                     "instructions": "",
+                    "required": false,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "80%",
+                        "class": "",
+                        "id": ""
+                    },
+                    "new_lines": "br",
+                    "rows": 6,
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_653851daf0852",
+                    "label": "Link principal",
+                    "name": "link_principal",
+                    "type": "url",
+                    "instructions": "Clique no titulo, texto e imagem",
                     "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
-                        "width": "",
+                        "width": "100%",
                         "class": "",
                         "id": ""
                     },
@@ -177,106 +196,64 @@
                     "placeholder": ""
                 },
                 {
-                    "key": "field_60ae4d3d9d44e",
-                    "label": "Facebook link",
-                    "name": "facebook",
-                    "type": "url",
+                    "key": "contato_c_sociais_c_l",
+                    "label": "Redes Sociais",
+                    "name": "redes_sociais",
+                    "type": "repeater",
                     "instructions": "",
-                    "required": 0,
-                    "conditional_logic": 0,
+                    "required": false,
+                    "conditional_logic": false,
                     "wrapper": {
                         "width": "",
                         "class": "",
                         "id": ""
                     },
-                    "default_value": "",
-                    "placeholder": ""
-                },
-                {
-                    "key": "field_60ae4d489d44f",
-                    "label": "Github link",
-                    "name": "github",
-                    "type": "url",
-                    "instructions": "",
-                    "required": 0,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "default_value": "",
-                    "placeholder": ""
-                },
-                {
-                    "key": "field_60ae4d589d450",
-                    "label": "Feed link",
-                    "name": "feed",
-                    "type": "url",
-                    "instructions": "",
-                    "required": 0,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "default_value": "",
-                    "placeholder": ""
-                },
-                {
-                    "key": "field_60ae4d709d451",
-                    "label": "ID da lista do Mailchimp",
-                    "name": "lista",
-                    "type": "text",
-                    "instructions": "",
-                    "required": 0,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "default_value": "",
-                    "placeholder": "",
-                    "prepend": "",
-                    "append": "",
-                    "maxlength": ""
-                },
-                {
-                    "key": "field_60ae4d879d452",
-                    "label": "Chave de API Mailchimp",
-                    "name": "chave",
-                    "type": "text",
-                    "instructions": "",
-                    "required": 0,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "default_value": "",
-                    "placeholder": "",
-                    "prepend": "",
-                    "append": "",
-                    "maxlength": ""
-                },
-                {
-                    "key": "field_60ae4d979d453",
-                    "label": "Newsletter link externo",
-                    "name": "newsletter",
-                    "type": "url",
-                    "instructions": "Deixe em branco para usar as credenciais do Mailchimp",
-                    "required": 0,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "default_value": "",
-                    "placeholder": ""
+                    "layout": "block",
+                    "min": 1,
+                    "max": 0,
+                    "button_label": "",
+                    "collapsed": "",
+                    "sub_fields": [
+                        {
+                            "key": "contato_c_sociais_r_i",
+                            "label": "Icone",
+                            "name": "icon",
+                            "type": "image",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "20%",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array",
+                            "preview_size": "thumb",
+                            "library": "all",
+                            "min_width": 20,
+                            "min_height": 20,
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": ""
+                        },
+                        {
+                            "key": "contato_c_sociais_c_l_tt",
+                            "label": "Link",
+                            "name": "link",
+                            "type": "link",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "80%",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array"
+                        }
+                    ]
                 }
             ]
         }
@@ -298,5 +275,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1622035901
+    "modified": 1696599173
 }

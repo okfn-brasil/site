@@ -1,8 +1,8 @@
 <?php
 
 /* Clear default post types */
-	// add_action( 'init', 'removePostTypeSupports', 10 );
-	// function removePostTypeSupports() {
+	add_action( 'init', 'removePostTypeSupports', 10 );
+	function removePostTypeSupports() {
 	// 	remove_post_type_support("post",'editor');
 	// 	remove_post_type_support("post",'author');
 	// 	remove_post_type_support("post",'thumbnail');
@@ -14,7 +14,7 @@
 	// 	remove_post_type_support("post",'page-attributes');
 	// 	remove_post_type_support("post",'post-formats');
 
-	// 	remove_post_type_support("page",'editor');
+	 	remove_post_type_support("page",'editor');
 	// 	remove_post_type_support("page",'author');
 	// 	remove_post_type_support("page",'thumbnail');
 	// 	remove_post_type_support("page",'excerpt');
@@ -24,7 +24,7 @@
 	// 	remove_post_type_support("page",'revisions');
 	// 	remove_post_type_support("page",'page-attributes');
 	// 	remove_post_type_support("page",'post-formats');
-	// }
+	}
 
 /* PostTypes */
 	add_action( 'init', 'registerPostypes', 2 );
@@ -36,7 +36,7 @@
 				"related" => "Notícias relacionadas",
 				"singular_name" => "Notícia",
 				"menu_name" => "Notícias",
-				"all_items" => "Todos os Notícias",
+				"all_items" => "Todas as Notícias",
 				"add_new" => "Adicionar nova",
 				"add_new_item" => "Adicionar nova Notícia",
 				"edit" => "Editar",
@@ -252,6 +252,37 @@
 			"menu_position" => 3,		
 			"supports" => array("title", "thumbnail"),
 		));
+		register_post_type( "publicacao", array(
+			"labels" => array(
+				"name" => "Publicações",
+				"related" => "Publicações relacionadas",
+				"singular_name" => "Publicações",
+				"menu_name" => "Publicações",
+				"all_items" => "Todas as Publicações",
+				"add_new" => "Adicionar nova",
+				"add_new_item" => "Adicionar nova Publicação",
+				"edit" => "Editar",
+				"edit_item" => "Editar Publicação",
+				"new_item" => "Nova Publicação",
+				"view" => "Ver",
+				"view_item" => "Ver Publicação",
+				"search_items" => "Buscar Publicação",
+				"not_found" => "Nenhuma Publicação encontrada",
+				"not_found_in_trash" => "Nenhuma encontrada",
+			),
+			"description" => "",
+			"public" => true,
+			"show_ui" => true,
+			"has_archive" => false,
+			"show_in_menu" => true,
+			"exclude_from_search" => false,
+			"capability_type" => "post",
+			"map_meta_cap" => true,
+			"hierarchical" => false,
+			"query_var" => true,
+			"menu_position" => 1,		
+			"supports" => array("title", "thumbnail"),
+		));
 	}
 
 /* Order */
@@ -266,6 +297,7 @@
 	    	'edit.php?post_type=rede', 
 	    	'edit.php?post_type=evento', 
 	    	'edit.php?post_type=clipping', 
+			'edit.php?post_type=publicacao', 
     	);
 	}
 	add_filter( 'custom_menu_order', '__return_true' );

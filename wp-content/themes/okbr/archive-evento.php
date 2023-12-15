@@ -24,25 +24,7 @@
                 <?php 
                     while(have_posts()): the_post();
                 ?>
-                <!-- Clipping -->
-                <article class="col-xs-12 col-sm-10 col-md-8 mb2 mb1-md">
-                    <a href="<?php echo ($url = get_field('url')) ? $url : get_the_permalink(); ?>" <?php if($url) echo 'target="_blank"' ?> class="cartao cartao-horizontal middle-xs">
-                        <?php 
-                            $img = get_field('imagem');
-                            $img = $img ? isset($img['sizes']['thumbhor']) ? $img['sizes']['thumbhor'] : $img['url'] :  tu(0).'/assets/images/ph_thumbhor.png';
-                        ?>
-                        <figure><img src="<?php echo $img; ?>"></figure>
-                        <section class="tcb p2 tl">
-                            <div class="t1 ff2 uc w100 mb05">
-                                <p><?php the_field('data'); ?></p>
-                            </div>
-                            <div class="t3 ff2 lh1-50 w600">
-                                <p><?php the_title(); ?></p>
-                            </div>
-                            <button class="btn-txt btn-cartao">Leia mais</button>
-                        </section>
-                    </a>
-                </article>
+                    <?php get_template_part('block-noticia'); ?>
                 <?php endwhile; wp_reset_postdata(); ?>
             </section>
             <?php 
@@ -56,7 +38,7 @@
                 if($c > $ppp):
             ?>
             <section class="row center-xs">
-                <div class="col-xs-12 col-sm-10 col-md-8">
+                <div class="col-xs-12 col-sm-12 col-md-8">
                     <ul class="lista-horizontal">
                         <?php if($pg > 1): ?><li><a href="<?php echo $ptal.'?paged='.($pg-1); ?>"><button class="btn-txt invertido mr2-sm p05">Voltar</button></a></li><?php endif; ?>
                         <?php if($pg-3 > 1): ?>

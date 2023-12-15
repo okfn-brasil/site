@@ -53,11 +53,11 @@
                 "class": "",
                 "id": ""
             },
-            "layout": "block",
+            "collapsed": "",
             "min": 0,
             "max": 0,
+            "layout": "block",
             "button_label": "",
-            "collapsed": "",
             "sub_fields": [
                 {
                     "key": "field_60ae653f98b76",
@@ -199,7 +199,7 @@
         {
             "key": "field_60ae678c98b7c",
             "label": "Lista",
-            "name": "lista",
+            "name": "",
             "type": "repeater",
             "instructions": "",
             "required": 0,
@@ -330,5 +330,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1626997593
+    "modified": 1696599174
 }

@@ -12,12 +12,12 @@
     <nav class="container-fluid pt05 pb05">
         <div class="wrap">
             <div class="row middle-xs">
-                <div class="col-xs-9 col-sm-10 col-md-4">
-                    <a href="<?php echo home_url(); ?>" class="inline-block <?php if(is_front_page()) echo 'ativo'; ?>">
-                        <img src="<?php tu(); ?>/assets/images/logo.svg" alt="">
+                <div class="col-xs-9  col-md-3">
+                    <a href="<?php echo home_url(); ?>" class="inline-block">
+                        <img src="<?php tu(); ?>/assets/images/logo.svg?v=20231004" alt="">
                     </a>
                 </div>
-                <div class="col-xs-3 col-sm-2 col-md-8 tr">
+                <div class="col-xs-3 col-sm-2 col-md-9 tr">
                     <div class="invisible-md">
                         <a class="btn-menu">
                             <span></span>
@@ -27,24 +27,23 @@
                     </div>
                     <ul class="lista-horizontal-md centro-vertical pl1 pr1 pl0-md pr0-md">
                         <?php foreach ($menuitems[0] as $m): ?>
-                        <li class="t1 uc w500 tcb mt2 mb2 mt0-md mb0-md ml05 mr05 link <?php if( isset($activeIDs[get_the_ID()]) && $activeIDs[get_the_ID()] == $m->ID ) echo 'ativo'; ?>"><a href="<?php echo $m->url; ?>"><?php echo $m->title; ?></a>
+                        <li class="t1 uc w500 mt2 mb2 mt0-md mb0-md ml05 mr05 link <?php if( isset($activeIDs[get_the_ID()]) && $activeIDs[get_the_ID()] == $m->ID ) echo 'ativo'; ?>"><a href="<?php echo $m->url; ?>"><?php echo $m->title; ?></a>
                             <?php if(isset($menuitems[$m->ID])): ?>
                             <span class="drop-sub-menu"></span>
                             <ul class="sub-menu">
                                 <?php foreach ($menuitems[$m->ID] as $mm): ?>
-                                <li class="t1 uc w500 tcb link"><a href="<?php echo $mm->url; ?>"><?php echo $mm->title; ?></a></li>
+                                <li class="t1 uc w500  link"><a href="<?php echo $mm->url; ?>"><?php echo $mm->title; ?></a></li>
                                 <?php endforeach; ?>
                             </ul>
                             <?php endif; ?>
                         </li>
                         <?php endforeach; ?>
-                        <li class="t1 uc w500 tcb mt2 mb2 mt0-md mb0-md ml05 mr05 link">
+                        <li class="t1 uc w500 tcp mt2 mb2 mt0-md mb0-md ml05 mr05 link">
                             <a class="toggleBusca">
-                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" height="20px" width="20px">
-                                    <g transform="matrix(-0.932065 0 0 0.932065 494.609 17.3913)">
-                                        <path d="M495,466.2L377.2,348.4c29.2-35.6,46.8-81.2,46.8-130.9C424,103.5,331.5,11,217.5,11C103.4,11,11,103.5,11,217.5   S103.4,424,217.5,424c49.7,0,95.2-17.5,130.8-46.7L466.1,495c8,8,20.9,8,28.9,0C503,487.1,503,474.1,495,466.2z M217.5,382.9   C126.2,382.9,52,308.7,52,217.5S126.2,52,217.5,52C308.7,52,383,126.3,383,217.5S308.7,382.9,217.5,382.9z" data-original="#000000" class="active-path" style="fill:#F6F5F5" data-old_color="#F0F0F0"></path>
-                                    </g>
-                                </svg>
+                            <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.84104 17.6534L6.12999 13.3644C5.06685 12.0683 4.42606 10.408 4.42606 8.59849C4.42606 4.44789 7.79387 1.08008 11.9445 1.08008C16.0987 1.08008 19.4629 4.44789 19.4629 8.59849C19.4629 12.7491 16.0987 16.1169 11.9445 16.1169C10.135 16.1169 8.47836 15.4798 7.18221 14.4166L2.89325 18.7019C2.60198 18.9932 2.13231 18.9932 1.84104 18.7019C1.54977 18.4143 1.54977 17.941 1.84104 17.6534ZM11.9445 14.6205C15.2686 14.6205 17.9701 11.919 17.9701 8.59849C17.9701 5.27801 15.2686 2.57284 11.9445 2.57284C8.62399 2.57284 5.91882 5.27801 5.91882 8.59849C5.91882 11.919 8.62399 14.6205 11.9445 14.6205Z" fill="black"/>
+                            </svg>
+
                             </a>
                         </li>
                     </ul>
@@ -52,12 +51,12 @@
             </div>
         </div>
     </nav>
-    <form class="container-fluid bg-preto pt05 pb05" action="<?php echo home_url(); ?>">
+    <form class="container-fluid bg-branco pt05 pb05" action="<?php echo home_url(); ?>">
         <div class="wrap">
             <div class="row middle-xs between-xs">
                 <div class="col-xs-12 col-sm-4 col-md-4">
                     <a href="<?php echo home_url("sobre"); ?>">
-                        <img src="<?php tu(); ?>/assets/images/logo.svg" alt="">
+                        <img src="<?php tu(); ?>/assets/images/logo.svg?v=20231004" alt="">
                     </a>
                 </div>
                 <div class="col-xs-12 col-sm-8 col-md-6 mt2 mb2 mt0-sm mb0-sm">

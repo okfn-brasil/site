@@ -2,14 +2,14 @@
 <?php get_template_part('block-menu'); ?>
 <main>
     <!-- Nós somos -->
-    <article class="container-fluid bg-preto bg-grafismo pt7 pt10-sm pb5">
+    <article class="container-fluid hero bg-grafismo pt7 pt10-sm pb5">
         <div class="wrap">
             <div class="row">
-                <div class="col-xs-12 col-sm-10 col-md-9">
-                    <h2 class="t6 w100 ff2 tcb mb2"><?php md_field('titulo'); ?></h2>
+                <div class="col-xs-12  col-md-9">
+                    <h2 class="t6 w100 ff2  mb2"><?php md_field('titulo'); ?></h2>
                 </div>
             </div>
-            <section class="conteudo tcb">
+            <section class="conteudo ">
                 <div class="row center-xs">
                     <div class="col-xs-12 col-sm-9 col-md-6 tl">
                         <?php echo md_field('texto'); ?>
@@ -20,18 +20,18 @@
     </article>
 
     <!-- Nossos Projetos -->
-    <article class="container-fluid bg-preto pt5 pb5">
+    <article class="container-fluid  pt5 pb5">
         <div class="wrap">
             <header class="row">
                 <div class="col-xs-12">
-                    <h2 class="titulo-secao tcb mb2">Nossos Projetos</h2>
+                    <h2 class="titulo-secao  mb2">Nossos Projetos</h2>
                 </div>
             </header>
 
             <!-- Filtro dos projetos -->
             <section class="row start-xs">
                 <div class="col-xs-12">
-                    <ul class="mb0 lista-horizontal tcb mb4">
+                    <ul class="mb0 lista-horizontal  mb4">
                         <li class="mr1"><button class="btn-filtro ativo" data-filtro="">Todos</button></li>
                         <?php 
                             $eixos = new WP_Query(array("post_type"=>"eixo","posts_per_page"=>-1,"orderby"=>"name"));
@@ -61,7 +61,7 @@
                             $img = $img ? isset($img['sizes']['thumb']) ? $img['sizes']['thumb'] : $img['url'] :  tu(0).'/assets/images/ph_thumb.png';
                         ?>
                         <figure><img src="<?php echo $img; ?>"></figure>
-                        <section class="tcb p2">
+                        <section class=" p2">
                             <div class="t3 lh1-50">
                                 <p><?php md_field('descricao'); ?></p>
                             </div>
@@ -74,10 +74,10 @@
         </div>
     </article>
 
-    <article class="container-fluid bg-cinza-escuro pt5 pb5">
+    <article class="container-fluid bg-roxo pt5 pb5">
         <div class="wrap">
             <header>
-                <h2 class="titulo-secao tcb mb4">Projetos realizados</h2>
+                <h2 class="titulo-secao tcb  mb4">Projetos realizados</h2>
             </header>
             <section>
                 <ul class="lista-horizontal">

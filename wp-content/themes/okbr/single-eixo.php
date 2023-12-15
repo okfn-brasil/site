@@ -1,28 +1,29 @@
 <?php get_header(); ?>
 <?php get_template_part('block-menu'); ?>
 <?php while(have_posts()): the_post(); ?>
-<main>
+<main id="single-eixos">
     <!-- Imagem em destaque -->
     <?php 
         $img = get_field('banner');
         $img = $img ? $img : get_field('imagem');
         $img = $img ? isset($img['sizes']['full']) ? $img['sizes']['full'] : $img['url'] :  tu(0).'/assets/images/ph_full.png';
     ?>
-    <header class="container-fluid bg-preto bg-imagem pt10 pb10" style="background-image: url(<?php echo $img; ?>)">
+    <header class="container-fluid  hero-eixo bg-imagem pt10 pb10" style="background-image:url(<?php the_field('bg_banner'); ?>);">
         <div class="wrap">
             <div class="row">
-                <div class="col-xs-12 col-sm-10 col-md-9">
+                <div class="col-xs-12  col-md-12 flex eixo-fixed">
                     <div class="bannermobile" style="background-image: url(<?php echo $img; ?>)"></div>
-                    <h2 class="t6 w100 ff2 tcb mb2"><?php md_field('titulo'); ?></h2>
+                    <h2 class="t6 w100 ff2"><?php md_field('titulo'); ?></h2>
+                    <img class="bannerdesktop" src="<?php echo $img; ?>">
                 </div>
             </div>
         </div>
     </header>
 
     <!-- Conteúdo -->
-    <article class="container-fluid bg-preto pt3 pb3">
+    <article class="container-fluid  pt3 pb3">
         <div class="wrap">
-            <section class="conteudo tcb">
+            <section class="conteudo">
                 <?php get_template_part('block-conteudo'); ?>
             </section>
         </div>
@@ -36,11 +37,11 @@
         if($rederelacionada->have_posts()):
     ?>
     <!-- Rede -->
-    <article class="container-fluid bg-cinza-escuro pt5 pb5">
+    <article class="container-fluid bg-roxo pt5 pb5">
         <div class="wrap">
             <header class="row">
                 <div class="col-xs-12">
-                    <h2 class="titulo-secao tcb mb4">Rede</h2>
+                    <h2 class="titulo-secao tcb  mb4">Rede</h2>
                 </div>
             </header>
             <!-- Notícias -->
@@ -57,7 +58,7 @@
                             }
                         ?>
                         <figure><img src="<?php echo $img; ?>"></figure>
-                        <section class="lh1-50 tcb p2 p1-sm tl">
+                        <section class="lh1-50  p2 p1-sm tl">
                             <h3 class="t4 ff2 w600 mb1"><?php the_title(); ?></h3>
                             <p class="t3"><?php the_field('texto'); ?></p>
                         </section>
@@ -74,11 +75,11 @@
         if($projetos->have_posts()):
     ?>
     <!-- Projetos relacionados -->
-    <article class="container-fluid bg-code pt5 pb5">
+    <article class="container-fluid  pt5 pb5">
         <div class="wrap">
             <header class="row">
                 <div class="col-xs-12">
-                    <h2 class="titulo-secao tcb mb4">Projetos relacionados</h2>
+                    <h2 class="titulo-secao  mb4">Projetos relacionados</h2>
                 </div>
             </header>
             <!-- Projetos -->
@@ -94,7 +95,7 @@
                             $img = $img ? isset($img['sizes']['thumb']) ? $img['sizes']['thumb'] : $img['url'] :  tu(0).'/assets/images/ph_thumb.png';
                         ?>
                         <figure><img src="<?php echo $img; ?>"></figure>
-                        <section class="tcb p2">
+                        <section class=" p2">
                             <div class="t3 lh1-50">
                                 <p><?php md_field('descricao'); ?></p>
                             </div>
@@ -113,11 +114,11 @@
         if($noticias->have_posts()):
     ?>
     <!-- Notícias relacionadas -->
-    <article class="container-fluid bg-cinza-escuro pt5 pb5">
+    <article class="container-fluid pt5 pb5">
         <div class="wrap">
             <header class="row">
                 <div class="col-xs-12">
-                    <h2 class="titulo-secao tcb mb4">Notícias relacionadas</h2>
+                    <h2 class="titulo-secao  mb4">Notícias relacionadas</h2>
                 </div>
             </header>
             <!-- Notícias -->
@@ -125,25 +126,7 @@
                 <?php 
                     while($noticias->have_posts()): $noticias->the_post();
                 ?>
-                <!-- Notícia -->
-                <article class="col-xs-12 col-sm-10 col-md-8 mb1">
-                    <a href="<?php the_permalink(); ?>" class="cartao cartao-horizontal middle-xs">
-                        <?php 
-                            $img = get_field('imagem');
-                            $img = $img ? isset($img['sizes']['thumbhor']) ? $img['sizes']['thumbhor'] : $img['url'] :  tu(0).'/assets/images/ph_thumbhor.png';
-                        ?>
-                        <figure><img src="<?php echo $img; ?>"></figure>
-                        <section class=" tcb p2 tl">
-                            <div class="t1 ff2 uc w100 mb05">
-                                <p><?php the_date('d M Y'); ?></p>
-                            </div>
-                            <div class="t3 ff2 lh1-50 w600">
-                                <p><?php the_title(); ?></p>
-                            </div>
-                            <button class="btn-txt btn-cartao">Leia Mais</button>
-                        </section>
-                    </a>
-                </article>
+                    <?php get_template_part('block-noticia'); ?>
                 <?php endwhile; ?>
             </div>
             <div class="row mt3">
